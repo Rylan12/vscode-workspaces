@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "../../../../usr/local/Homebrew"
+		},
+		{
+			"path": "../homebrew/actions"
+		},
+		{
+			"path": "../homebrew/brew.sh"
+		},
+		{
+			"path": "../homebrew/github"
+		},
+		{
+			"path": "../homebrew/ops"
+		}
+	],
+	"settings": {
+		"ruby.rubocop.executePath": "/usr/local/Homebrew/Library/Homebrew/shims/gems/",
+		"editor.tabSize": 2,
+		"files.insertFinalNewline": true,
+		"files.trimTrailingWhitespace": true
+	},
+	"extensions": {
+		"recommendations": [
+			"kaiwood.endwise",
+			"misogi.ruby-rubocop",
+			"rebornix.ruby",
+			"wingrunr21.vscode-ruby"
+		]
+	}
+}

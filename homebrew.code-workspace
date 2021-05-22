@@ -1,27 +1,35 @@
 {
 	"folders": [
 		{
+			"name": "Homebrew",
 			"path": "../../../../usr/local/Homebrew"
 		},
 		{
-			"path": "../homebrew/actions"
-		},
-		{
-			"path": "../homebrew/brew.sh"
-		},
-		{
-			"path": "../homebrew/github"
-		},
-		{
-			"path": "../homebrew/ops"
-		},
-		{
-			"path": "../homebrew/formulae.brew.sh"
-		},
-		{
+			"name": "install",
 			"path": "../homebrew/install"
 		},
 		{
+			"name": "actions",
+			"path": "../homebrew/actions"
+		},
+		{
+			"name": "github",
+			"path": "../homebrew/github"
+		},
+		{
+			"name": "ops",
+			"path": "../homebrew/ops"
+		},
+		{
+			"name": "brew.sh",
+			"path": "../homebrew/brew.sh"
+		},
+		{
+			"name": "formulae.brew.sh",
+			"path": "../homebrew/formulae.brew.sh"
+		},
+		{
+			"name": "rubydoc.brew.sh",
 			"path": "../homebrew/rubydoc.brew.sh"
 		}
 	],

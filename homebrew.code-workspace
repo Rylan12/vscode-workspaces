@@ -14,6 +14,15 @@
 		},
 		{
 			"path": "../homebrew/ops"
+		},
+		{
+			"path": "../homebrew/formulae.brew.sh"
+		},
+		{
+			"path": "../homebrew/install"
+		},
+		{
+			"path": "../homebrew/rubydoc.brew.sh"
 		}
 	],
 	"settings": {

@@ -1,8 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "Homebrew",
-			"path": "../../../../usr/local/Homebrew"
+			"name": "homebrew",
+			"path": "../../../../opt/homebrew"
 		},
 		{
 			"name": "install",

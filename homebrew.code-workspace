@@ -34,10 +34,31 @@
 		}
 	],
 	"settings": {
-		"ruby.rubocop.executePath": "/opt/homebrew/Library/Homebrew/shims/gems/",
+		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
-		"files.insertFinalNewline": true,
+		"files.encoding": "utf8",
+		"files.eol": "\n",
 		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"ruby.rubocop.executePath": "/opt/homebrew/Library/Homebrew/shims/gems/",
+		"shellcheck.customArgs": [
+			"--shell=bash",
+			"--enable=all",
+			"--external-sources",
+			"--source-path=../../../../opt/homebrew/Library"
+		],
+		"shellformat.effectLanguages": [
+			"shellscript",
+		],
+		"shellformat.path": "../../../../opt/homebrew/Library/Homebrew/utils/shfmt.sh",
+		"shellformat.flag": "-i 2 -ci -ln bash",
+		"[shellscript]": {
+			"editor.formatOnSave": true,
+			"editor.codeActionsOnSave": {
+				"source.fixAll.shellcheck": true,
+			}
+		},
 		"cSpell.words": [
 			"livecheck"
 		]

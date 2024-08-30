@@ -1,5 +1,9 @@
 # VS Code Workspaces
 
+> [!WARNING]
+> I no longer use this repository.
+> I still use a version of the `work` function, but all details now live in my [dotfiles](https://github.com/Rylan12/dotfiles).
+
 This repository contains my VS Code workspaces that I want to make sure are backed up.
 
 I use this repo along with the `work` shell function described below to easily open VS Code workspaces. For example, to open my [`homebrew` workspace](homebrew.code-workspace), I run:
